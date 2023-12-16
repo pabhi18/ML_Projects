@@ -24,7 +24,7 @@ while True:
 
     cv2.imshow("image", frame)
 
-    key = cv2.waitKey(0q) & 0xFF
+    key = cv2.waitKey(0) & 0xFF
 
     if key == ord('x'):
         break
